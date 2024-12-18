@@ -40,7 +40,7 @@ const getAccessToken = async () => {
 
 // Test GET Endpoint
 app.get('/', (req, res) => {
-  res.send('Server is up and running!');
+  res.send('AI for image generation is working properly on backend!');
 });
 
 // Generate Image from Prompt
